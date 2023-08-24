@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="js/script.js" defer></script>
+
+
+    <title>Document</title>
+</head>
+
+<body>
+
+    <header class="header">
+
+        <i class='bx bx-menu' id="menu-btn"></i>
+
+        <a href="#" class="logo">
+            Royal Cars
+        </a>
+
+        <nav class="navbar">
+            <a href="#home">Início</a>
+            <a href="#vehicles">Veículos</a>
+            <a href="#services">Serviços</a>
+            <a href="#reviews">Avaliações</a>
+            <a href="#contact">Contato</a>
+        </nav>
+
+        <div class="login-btn">
+            <button class="btn">Entrar</button>
+            <i class='bx bx-user'></i>
+        </div>
+
+    </header>
+
+    <section class="login-form-container">
+
+        <span id="close-login-form"><i class='bx bx-x'></i></span>
+
+        <form>
+            <h3>Fazer Login</h3>
+            <input type="email" placeholder="email" class="box">
+            <input type="password" placeholder="senha" class="box">
+            <p>Esqueceu sua senha?<a href="#" class="basic-link"> Clique aqui</a></p>
+            <input type="submit" value="Entrar" class="btn">
+            <p>Ou faça login com</p>
+            <div class="buttons">
+                <a href="#" class="btn">Google</a>
+                <a href="#" class="btn">Facebook</a>
+            </div>
+            <p>Não tem uma conta? <a href="#" class="basic-link">Criar conta</a></p>
+        </form>
+
+    </section>
+
+    <section class="home" id="home">
+        <h1 class="title">O carro ideal para você.</h1>
+        <img class="home-parallax" data-speed="1" src="imgs/car.png" alt="car image">
+    </section>
+
+    <section class="agenda" id="agenda">
+        <form class="agenda-container">
+            <div class="field">
+                <h3>Local de Retirada</h3>
+                <input type="text" placeholder="Local">
+            </div>
+            <div class="field">
+                <h3>Data de locação</h3>
+                <input type="date">
+            </div>
+            <div class="field">
+                <h3>Data de Entrega</h3>
+                <input type="date">
+            </div>
+            <div class="field">
+                <button class="btn">Procurar</button>
+            </div>
+        </form>
+    </section>
+
+    <section class="about">
+        <div class="about-container">
+            <div class="img-container"><img src="imgs/jenny-ueberberg-PEjIzb2bhAk-unsplash.jpg" alt="driver in a car">
+            </div>
+            <div class="info-container">
+                <h3>Serviço de Aluguel simplificado</h3>
+                <p>O melhor serviço de aluguel de carros com suporte 24 horas para te proporcionar a
+                    melhor experiência possível.</p>
+                <div class="icons-container">
+
+                    <div class="icon-container">
+                        <i class='bx bxs-car'></i>
+                        <div class="title">+30</div>
+                        <div class="text-container">
+                            <p>Modelos</p>
+                        </div>
+                    </div>
+
+                    <div class="icon-container">
+                        <i class='bx bx-building-house'></i>
+                        <div class="title">12</div>
+
+                        <div class="text-container">
+                            <p>Locadoras</p>
+                        </div>
+                    </div>
+
+                    <div class="icon-container">
+                        <i class='bx bxs-car-mechanic'></i>
+                        <div class="title">9</div>
+                        <div class="text-container">
+                            <p>Oficinas 24hrs</p>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <button class="btn">Catálogo</button>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="vehicles" id="vehicles">
+
+        <h1 class="heading" class="title"> Escolhas <span> populares</span></h1>
+
+        <div class="swiper vehicles-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <img src="imgs/citroen-removebg-preview.png" alt="Ferrari">
+                    <div class="content">
+                        <h3>Citroen</h3>
+                        <a href="#" class="btn">Saiba mais</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="imgs/hb20-removebg-preview.png" alt="Camaro">
+                    <div class="content">
+                        <h3>HB20</h3>
+                        <a href="#" class="btn">Saiba mais</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="imgs/kwid-removebg-preview.png" alt="Bugatti">
+                    <div class="content">
+                        <h3>Kwid</h3>
+                        <a href="#" class="btn">Saiba mais</a>
+                    </div>
+                </div>
+
+                <!-- <div class="swiper-slide box">
+                    <img src="imgs/polo-removebg-preview.png" alt="Volkswagen Jetta">
+                    <div class="content">
+                        <h3>Polo</h3>
+                        <a href="#" class="btn">Saiba mais</a>
+                    </div>
+                </div> -->
+
+                <div class="swiper-slide box">
+                    <img src="imgs/saveiro-removebg-preview.png" alt="Renaut Kiwid">
+                    <div class="content">
+                        <h3>Saveiro</h3>
+                        <a href="#" class="btn">Saiba mais</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="imgs/logan-removebg-preview-removebg-preview.png" alt="Renaut Logan">
+                    <div class="content">
+                        <h3>Logan</h3>
+                        <a href="#" class="btn">Saiba mais</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="swiper-pagination"></div>
+
+        </div>
+
+
+
+    </section>
+
+    <section class="hot-offers">
+        <div class="title">Ofertas do dia</div>
+        <div class="container">
+
+            <div class="offer-container">
+                <div class="car-image"><img src="imgs/hot-offers-img/bmw-offer.png" alt=""></div>
+                <h4>BMW</h4>
+                <h2>R$ 120,00 / Dia</h2>
+                <div class="description-container">
+                    <div class="info">
+                        <i class='bx bx-car'></i>
+                        <p>X6</p>
+                    </div>
+                    <div class="info">
+                        <i class='bx bx-info-square'></i>
+                        <p>Automático</p>
+                    </div>
+                    <div class="info">
+                        <i class='bx bx-tachometer'></i>
+                        <p>300 km/h</p>
+                    </div>
+                </div>
+                <div class="buttons">
+                    <button class="btn">Alugar</button>
+                    <button class="btn">Detalhes</button>
+                </div>
+            </div>
+
+            <div class="offer-container">
+                <div class="car-image"><img src="imgs/hot-offers-img/toyota-offer-2.png" alt=""></div>
+                <h4>Camry</h4>
+                <h2>R$ 99,99 / Dia</h2>
+                <div class="description-container">
+                    <div class="info">
+                        <i class='bx bx-car'></i>
+                        <p>XLE 3.5</p>
+                    </div>
+                    <div class="info">
+                        <i class='bx bx-info-square'></i>
+                        <p>Automático</p>
+                    </div>
+                    <div class="info">
+                        <i class='bx bx-tachometer'></i>
+                        <p>280 km/h</p>
+                    </div>
+                </div>
+                <div class="buttons">
+                    <button class="btn">Alugar</button>
+                    <button class="btn">Detalhes</button>
+                </div>
+            </div>
+
+            <div class="offer-container">
+                <div class="car-image"><img src="imgs/hot-offers-img/mercedes-offer.png" alt=""></div>
+                <h4>Mercedes-Benz</h4>
+                <h2>R$ 150,00 / Dia</h2>
+                <div class="description-container">
+                    <div class="info">
+                        <i class='bx bx-car'></i>
+                        <p>Sprinter</p>
+                    </div>
+                    <div class="info">
+                        <i class='bx bx-info-square'></i>
+                        <p>Automático</p>
+                    </div>
+                    <div class="info">
+                        <i class='bx bx-tachometer'></i>
+                        <p>290 km/h</p>
+                    </div>
+                </div>
+                <div class="buttons">
+                    <button class="btn">Alugar</button>
+                    <button class="btn">Detalhes</button>
+                </div>
+            </div>
+
+
+            <div class="offer-container">
+                <div class="car-image"><img src="imgs/hot-offers-img/nissan-offer.png" alt=""></div>
+                <h4>Nissan</h4>
+                <h2>R$ 90,00 / Dia</h2>
+                <div class="description-container">
+                    <div class="info">
+                        <i class='bx bx-car'></i>
+                        <p>Sentra</p>
+                    </div>
+                    <div class="info">
+                        <i class='bx bx-info-square'></i>
+                        <p>Automático</p>
+                    </div>
+                    <div class="info">
+                        <i class='bx bx-tachometer'></i>
+                        <p>250 km/h</p>
+                    </div>
+                </div>
+                <div class="buttons">
+                    <button class="btn">Alugar</button>
+                    <button class="btn">Detalhes</button>
+                </div>
+            </div>
+
+            <div class="offer-container">
+                <div class="car-image"><img src="imgs/hot-offers-img/offer-toyota.png" alt=""></div>
+                <h4>Tesla Malibu</h4>
+                <h2>R$ 200,00 / Dia</h2>
+                <div class="description-container">
+                    <div class="info">
+                        <i class='bx bx-car'></i>
+                        <p>Model 3</p>
+                    </div>
+                    <div class="info">
+                        <i class='bx bx-info-square'></i>
+                        <p>Automático</p>
+                    </div>
+                    <div class="info">
+                        <i class='bx bx-tachometer'></i>
+                        <p>120 km/h</p>
+                    </div>
+                </div>
+                <div class="buttons">
+                    <button class="btn">Alugar</button>
+                    <button class="btn">Detalhes</button>
+                </div>
+            </div>
+
+            <div class="offer-container">
+                <div class="car-image"><img src="imgs/citroen-removebg-preview.png" alt=""></div>
+                <h4>Citroën</h4>
+                <h2>R$ 65,00 / Dia</h2>
+                <div class="description-container">
+                    <div class="info">
+                        <i class='bx bx-car'></i>
+                        <p>C5</p>
+                    </div>
+                    <div class="info">
+                        <i class='bx bx-info-square'></i>
+                        <p>Automático</p>
+                    </div>
+                    <div class="info">
+                        <i class='bx bx-tachometer'></i>
+                        <p>210 km/h</p>
+                    </div>
+                </div>
+                <div class="buttons">
+                    <button class="btn">Alugar</button>
+                    <button class="btn">Detalhes</button>
+                </div>
+            </div>
+
+            <div class="offer-container">
+                <div class="car-image"><img src="imgs/hb20-removebg-preview.png" alt="">
+                </div>
+                <h4>HB20</h4>
+                <h2>R$ 65,00 / Dia</h2>
+                <div class="description-container">
+                    <div class="info">
+                        <i class='bx bx-car'></i>
+                        <p>2023</p>
+                    </div>
+                    <div class="info">
+                        <i class='bx bx-info-square'></i>
+                        <p>Automático</p>
+                    </div>
+                    <div class="info">
+                        <i class='bx bx-tachometer'></i>
+                        <p>190 km/h</p>
+                    </div>
+                </div>
+                <div class="buttons">
+                    <button class="btn">Alugar</button>
+                    <button class="btn">Detalhes</button>
+                </div>
+            </div>
+
+            <div class="offer-container">
+                <div class="car-image"><img src="imgs/kwid-removebg-preview.png" alt="">
+                </div>
+                <h4>Renault</h4>
+                <h2>R$ 53,99 / Dia</h2>
+                <div class="description-container">
+                    <div class="info">
+                        <i class='bx bx-car'></i>
+                        <p>Kwid</p>
+                    </div>
+                    <div class="info">
+                        <i class='bx bx-info-square'></i>
+                        <p>Automático</p>
+                    </div>
+                    <div class="info">
+                        <i class='bx bx-tachometer'></i>
+                        <p>260 km/h</p>
+                    </div>
+                </div>
+                <div class="buttons">
+                    <button class="btn">Alugar</button>
+                    <button class="btn">Detalhes</button>
+                </div>
+            </div>
+
+            <div class="offer-container">
+                <div class="car-image"><img src="imgs/saveiro-removebg-preview.png" alt="">
+                </div>
+                <h4>Saveiro</h4>
+                <h2>R$ 80,00 / Dia</h2>
+                <div class="description-container">
+                    <div class="info">
+                        <i class='bx bx-car'></i>
+                        <p>Cross</p>
+                    </div>
+                    <div class="info">
+                        <i class='bx bx-info-square'></i>
+                        <p>Automático</p>
+                    </div>
+                    <div class="info">
+                        <i class='bx bx-tachometer'></i>
+                        <p>230 km/h</p>
+                    </div>
+                </div>
+                <div class="buttons">
+                    <button class="btn">Alugar</button>
+                    <button class="btn">Detalhes</button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+</body>
+
+</html>
