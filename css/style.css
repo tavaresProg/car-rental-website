@@ -566,9 +566,9 @@ footer .box-container .box a:hover i {
 }
 
 footer .span-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 footer span {
@@ -715,6 +715,18 @@ footer span {
         padding: 1rem;
     }
 
+
+    .hot-offers .container .offer-container .buttons button {
+        width: 180px;
+    }
+
+    .hot-offers .container .description-container {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        gap: 3rem;
+    }
+
 }
 
 @media(max-width: 483px) {
@@ -734,6 +746,8 @@ footer span {
     .contact .row .map {
         max-height: 300px;
     }
+
+
 }
 
 @media(max-width: 450px) {
@@ -758,6 +772,11 @@ footer span {
 
     .hot-offers .container .offer-container .buttons button {
         width: 100px;
+        padding: 0.8rem;
+    }
+
+    .hot-offers .container .description-container {
+        gap: 4px;
     }
 
     .description-container {
