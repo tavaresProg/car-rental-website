@@ -45,18 +45,18 @@ var swiper = new Swiper(".vehicles-slider", {
     },
     clickable: true,
     breakpoints: {
-    0: {
-        slidesPerView: 1,
+        0: {
+            slidesPerView: 1,
 
-    },
-    768: {
-        slidesPerView: 2,
+        },
+        768: {
+            slidesPerView: 2,
 
-    },
-    991: {
-        slidesPerView: 3,
+        },
+        991: {
+            slidesPerView: 3,
 
+        },
     },
-},
 });
 
